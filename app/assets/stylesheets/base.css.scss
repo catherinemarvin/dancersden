@@ -4,10 +4,15 @@
 body {
   padding-top: 60px;
   padding-bottom: 40px;
-  background-image: image-url("squairy_light.png");
+  background-image: image-url("binding_dark.png");
   font-family: 'Lora', serif;
+  color: #ffffff;
 };
 
 h1 {
   font-family: 'Open Sans', sans-serif;
+}
+
+.hero-unit {
+  color: #000000;
 }
