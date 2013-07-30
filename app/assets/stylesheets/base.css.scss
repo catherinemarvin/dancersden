@@ -5,6 +5,7 @@ body {
   padding-top: 60px;
   padding-bottom: 40px;
   font-family: 'Lora', serif;
+  font-size: 16px;
   color: #ffffff;
   background-color: #55472d;
 };
@@ -35,6 +36,29 @@ body {
   height: 500px;
 }
 
+.featurette-divider {
+  margin: 80px 0;
+}
+
+.featurette {
+  padding-top: 120px;
+  overflow: hidden;
+}
+
+.featurette-image {
+  margin-top: -120px;
+}
+
+.featurette-image.pull-right {
+  margin-left: 40px;
+}
+
+.featurette-heading {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
 
 h1 {
   font-family: 'Open Sans', sans-serif;
