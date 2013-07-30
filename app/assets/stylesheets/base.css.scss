@@ -9,6 +9,33 @@ body {
   background-color: #55472d;
 };
 
+.navbar-wrapper {
+  position: relative;
+  z-index: 10;
+}
+
+.carousel {
+  margin-bottom: 60px;
+  margin-top: -90px;
+}
+
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel .item {
+  height: 500px;
+}
+
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
 h1 {
   font-family: 'Open Sans', sans-serif;
 }

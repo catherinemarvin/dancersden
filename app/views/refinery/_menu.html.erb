@@ -7,9 +7,9 @@
     hide_children = Refinery::Core.menu_hide_children if hide_children.nil?
 -%>
 <nav id='<%= dom_id %>' class='<%= css %>'>
-  <div class="navbar-inner">
-    <div class="container">
-  <ul class="nav">
+  <div class="container">
+    <div class="nav-collapse collapse">
+       <ul class="nav navbar-nav">
     <%= render :partial => '/refinery/menu_branch', :collection => roots,
                :locals => {
                  :hide_children => hide_children,

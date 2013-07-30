@@ -1,4 +1,8 @@
-<%= render(:partial => "/refinery/menu", :locals => {
-             :dom_id => 'menu',
-             :css => 'menu navbar navbar-inverse navbar-fixed-top'
-           }) %>
+<div class="navbar-wrapper">
+  <div class="container">
+  <%= render(:partial => "/refinery/menu", :locals => {
+               :dom_id => 'menu',
+               :css => 'navbar navbar-inverse navbar-static-top'
+             }) %>
+  </div>
+</div>
