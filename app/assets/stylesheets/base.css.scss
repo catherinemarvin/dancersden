@@ -60,6 +60,13 @@ body {
   letter-spacing: -1px;
 }
 
+.logo {
+  background-image: image_url("logo.png");
+  height: 50px;
+  width: 149px;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
 h1 {
   font-family: 'Open Sans', sans-serif;
 }
