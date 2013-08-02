@@ -1,13 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(http://fonts.googleapis.com/css?family=Lora);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 
 body {
   padding-top: 60px;
   padding-bottom: 40px;
-  font-family: 'Lora', serif;
-  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
   color: #ffffff;
-  background-color: #55472d;
+  background-color: #41444f;
 };
 
 .navbar-wrapper {
@@ -53,6 +53,20 @@ body {
   margin-left: 40px;
 }
 
+.featurette-image.pull-left {
+  margin-right: 40px;
+}
+
+.about-img.pull-left {
+  margin-right: 40px;
+}
+
+.about-img.pull-right {
+  margin-left: 40px;
+}
+
+
+
 .featurette-heading {
   font-size: 50px;
   font-weight: 300;
@@ -67,6 +81,20 @@ body {
   background-repeat: no-repeat;
   text-decoration: none;
 }
+
+#menu {
+  font-size: 16px;
+}
 h1 {
   font-family: 'Open Sans', sans-serif;
+}
+
+.slide-history {
+  padding: 300px 0px;
+  background-color: #251b23;
+}
+
+.slide-founding {
+  padding: 300px 0px;
+  background-color: black;
 }
