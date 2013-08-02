@@ -5,7 +5,7 @@ body {
   padding-top: 60px;
   padding-bottom: 40px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   color: #ffffff;
   background-color: #41444f;
 };
@@ -74,12 +74,19 @@ body {
   letter-spacing: -1px;
 }
 
+.headline {
+  padding: 20px 0 20px;
+}
+
 .logo {
   background-image: image_url("logo.png");
-  height: 50px;
-  width: 149px;
   background-repeat: no-repeat;
   text-decoration: none;
+  background-size: 467px 144px;
+  width: 467px;
+  height: 144px;
+  margin: 0 auto 26px;
+  overflow: hidden;
 }
 
 #menu {
